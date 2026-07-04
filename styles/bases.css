@@ -70,9 +70,16 @@ header span {
 .navigation a:hover{
     background-color: #E07A5F;
 }
-/*************** h1 ***********/
+/*************** h1 h2 ***********/
 h1 {
     margin-left: 10px;
+}
+h2 {
+    background-color: #0c0c0c;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
 }
 /*************** container main ***********/
 body {
@@ -115,5 +122,31 @@ main {
     padding: 20px 20px 20px ;
     margin-left: 135px;
     
+}
+
+
+.filter-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Diseño básico y estilización de los botones */
+.filter-btn {
+
+    background-color: #2e5a88;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.filter-btn:hover {
+    background-color: #1e3d60;
+    /* Color más oscuro al pasar el cursor */
 }
 
