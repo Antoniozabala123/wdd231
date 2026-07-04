@@ -43,6 +43,7 @@ header span {
 /*************** navigation ***********/
 .navigation {
     display: none;
+    background-color: #0c0c0c;
 }
 
 .navigation.show {
@@ -58,12 +59,12 @@ header span {
 .navigation a{
     display: block;
     padding: .8rem 10px;
-    color: #3D405B;
+    color: #ddd;
     text-decoration: none;
     border-bottom: solid 1px #ddd;
 }
 .navigation li.current{
-    background-color: #eee;
+    background-color: #0c0c0c;
 
 }
 .navigation a:hover{
@@ -92,7 +93,7 @@ main {
     gap: 20px;
 }
 .card-header {
-    background-color: #2e5a88;
+    background-color: #0c0c0c;
     color: white;
     padding: 10px;
     text-align: center;
@@ -100,7 +101,7 @@ main {
 }
 .card {
     flex: 1;
-    border: 1px solid #2e5a88;
+    border: 1px solid #0c0c0c;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -108,4 +109,11 @@ main {
     padding: 40px;
 }
 
+.profile-img {
+    float: center;
+    width: 70%;
+    padding: 20px 20px 20px ;
+    margin-left: 135px;
+    
+}
 
