@@ -4,7 +4,10 @@ const navlinks = document.querySelector('#nav-bar');
 navbutton.addEventListener('click', () => {
     navbutton.classList.toggle('show');
     navlinks.classList.toggle('show');
+
+    hamButton.textContent = navigation.classList.contains('open') ? 'X' : '☰';
 });
+
 const courses = [
     {
         subject: 'CSE',
@@ -16,7 +19,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -29,7 +32,7 @@ const courses = [
             'HTML',
             'CSS'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -41,7 +44,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -53,7 +56,7 @@ const courses = [
         technology: [
             'C#'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -67,7 +70,7 @@ const courses = [
             'CSS',
             'JavaScript'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -84,5 +87,58 @@ const courses = [
         completed: false
     }
 ]
+const coursesContainer = document.querySelector(".courses");
+const totalCreditsSpan = document.getElementById("total-credits");
 
 
+function Courses(coursesList) {
+
+    coursesContainer.innerHTML = "";
+
+
+    coursesList.forEach(course => {
+        let card = document.createElement('div');
+
+        card.classList.add('course-card');
+        
+
+        card.textContent = `${course.subject} ${course.number}`;
+
+
+        if (course.completed) {
+            card.classList.add('completed');
+
+        } else {
+
+            card.classList.add('not-completed');
+
+        }
+
+        coursesContainer.appendChild(card);
+
+    });
+
+    const totalCredits = coursesList.reduce((accumulator, course) => accumulator + course.credits, 0);
+    totalCreditsSpan.textContent = totalCredits;
+}
+
+document.getElementById('all').addEventListener('click', () => {
+    Courses(courses);
+});
+
+document.getElementById('wdd').addEventListener('click', () => {
+    const wdd = courses.filter(course => course.subject === 'WDD');
+    Courses(wdd);
+});
+
+document.getElementById('cse').addEventListener('click', () => {
+    const cse = courses.filter(course => course.subject === 'CSE');
+    Courses(cse);
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    Courses(courses);
+});
+
+document.getElementById("currentYear").textContent = new Date().getFullYear();
+document.getElementById("lastModified").innerHTML = document.lastModified;

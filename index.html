@@ -7,10 +7,15 @@
     <meta name="description" content="Course portal homepage for WDD 231 focusing on web frontend development.">
     <meta name="author" content="antonio zabala">
 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <!---style sheet here-->
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/bases.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/bases.css">
 
     <script src="scripts/navigation.js" defer></script>
     
@@ -56,10 +61,27 @@
     <section >
         <h2>Web Certificate Courses</h2>
 
-        <div id="courseContainer"></div>
-
+        <div class="filter-buttons">
+            <button id="all">All Courses</button>
+            <button id="wdd">WDD Courses</button>
+            <button id="cse">CSE Courses</button>
+        </div>
+        
+        
+        <p class="credit-total">The total number of credits listed below is: <span id="total-credits">0</span></p>
+        
+        <div class="courses"></div>
     </section>
     </main>
+<footer>
+    <div class="social">
+        <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.svg" alt="linked in" width="16" height="16"></a>
+        <a href="https://x.com/home" target="_blank"><img src="images/twitter-x.svg" alt="twitter" width="16" height="16"></a>
+        <a href="https://github.co" target="_blank"><img src="images/github.svg" alt="github" width="16" height="16"></a>
+    </div>
+    <p>&copy; <span id="currentYear"></span> Antonio Zabala - Caracas</p>
+    <p>Last Modification: <span id="lastModified"></span></p>
+</footer>
 
     
 </body>
