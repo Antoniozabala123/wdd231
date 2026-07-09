@@ -95,12 +95,13 @@ main {
     padding: 15px;
 }
 h2{
-    margin: auto;
+    margin: 15px;
     background-color: #0c0c0c;
-        color: white;
-        padding: 10px;
-        text-align: center;
-        font-weight: bold;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+        
 }
 .container{
     display: grid;
@@ -129,7 +130,7 @@ h2{
     width: 100%;
     padding: 10px 0;
     height: auto;
-    max-width: 300px;
+    float: center;
     
 }
 
