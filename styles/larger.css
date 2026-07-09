@@ -6,7 +6,7 @@
         footer {
             
             max-width: 1920px;
-            magin: 0 auto;
+            margin: 0 auto;
             
         }
     header {
@@ -28,5 +28,5 @@
    .navigation a {
     border: none;
    }  
-   
+
 }
