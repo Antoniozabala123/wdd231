@@ -5,7 +5,6 @@ navbutton.addEventListener('click', () => {
     navbutton.classList.toggle('show');
     navlinks.classList.toggle('show');
 
-    hamButton.textContent = navigation.classList.contains('open') ? 'X' : '☰';
 });
 
 const courses = [
