@@ -1,0 +1,128 @@
+/*************** Site Wide***********/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+/*************** header ***********/
+header {
+
+    display: grid;
+    grid-template-columns: auto auto 1fr auto auto;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+}
+
+header img {
+    width: 30px;
+    height: 30px;
+}
+/*************** navigation ***********/
+.navigation {
+    grid-column: 5;
+    /* Obliga al menú a irse a la quinta columna (extremo derecho) */
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+}
+
+.navigation a {
+display: block;
+padding: .8rem 10px;
+color: #0f0f0f;
+text-decoration: none;
+border-bottom: solid 1px #ddd;
+}
+.navigation a:hover {
+    color: #E07A5F;
+}
+
+
+h1{
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0;
+    color: #333;
+}
+
+/*************** Hamburger***********/
+.hamburger {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #3D405B;
+    cursor: pointer;
+    font-family: Verdana;
+}
+
+.hamburger::before {
+    content: "\2630";
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+#ham-btn {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #ham-btn{
+        display: block;
+        order: 2
+    }
+        .navigation {
+            grid-column: 5;
+            /* Obliga al menú a irse a la quinta columna (extremo derecho) */
+        }
+        
+
+    header {
+        display: grid;
+        grid-template-columns: 24px auto 44px;
+        align-items: center;
+            gap: 12px;
+            padding: 10px 20px;
+            background-color: #e0e0e0;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        display: block;
+        width: 100%;
+        text-align: center;
+        background-color: #e9e3e3;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+        nav.show {
+            display: flex;
+            flex-direction: row;
+            display: block;
+            width: 100%;
+            text-align: center;
+            }
+
+    nav {
+        display: none;
+        width: 100%;
+        order: 3;
+    }
+}
+
+
