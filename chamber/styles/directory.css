@@ -95,7 +95,7 @@ main {
     background-color: #fff;
     font-family: Acme, Arial, sans-serif;
 }
-.menu,h2 {
+.menu,h2 button{
     margin: 1rem auto;
     padding: 0.5rem;
     text-align: center;
