@@ -1,0 +1,87 @@
+[
+    
+{
+"name": "Empresa Polar",
+"address": "Centro Empresarial Polar, Segunda Avenida con Cuarta Transversal, Urb. Los Cortijos de Lourdes, Caracas.",
+"phone": "+223 20 123 456",
+"websiteURL": "https://empresaspolar.com",
+"image": "images/Empresas Polar.jpg",
+"membershipLevel": "Gold"
+},
+{
+"name": "Sahara Trading Co.",
+"address": "45 Market Bazaar, Timbuktu",
+"phone": "+223 20 987 654",
+"websiteURL": "https://example.com",
+"image": "images/smart market.jpg",
+"membershipLevel": "Silver"
+},
+    
+{
+    "name": "Niger River Eco Lodge",
+    "address": "calle plaza venezuela",
+    "phone": "+223 28 444 555",
+    "websiteURL": "https://intel.la",
+    "image": "images/INTEL.jpg",
+    "membershipLevel": "Gold"    
+},
+{
+    "name": "Desert Bloom Botanicals",
+    "address": "caracas calle cati",
+    "phone": "+223 20 777 888",
+    "websiteURL": "https://www.cantv.com.ve/internet/",
+    "image": "images/cantv.jpg",
+    "membershipLevel": "Silver"
+    
+},
+    {
+        "name": "Sankore Book Archiving",
+        "address": "300 University Rd, Timbuktu",
+        "phone": "+223 20 333 222",
+        "websiteURL": "https://www.bancodevenezuela.com/index.html",
+        "image": "images/banco.jpg",
+        "membershipLevel": "Gold"
+        
+    },
+    {
+        "name": "Caravan Freight Logistics",
+        "address": "5 Ocean-to-Sand Hwy, Timbuktu",
+        "phone": "+223 20 111 000",
+        "websiteURL": "https://www.bncenlinea.com/",
+        "image": "images/bank.jpg",
+        "membershipLevel": "gold",
+        "establishedYear": "2015",
+        "businessSector": "bank"
+    },
+    {
+        "name": "Gold Coast Artisans",
+        "address": "14 Jewelry Row, Timbuktu",
+        "phone": "+223 20 666 999",
+        "websiteURL": "https://aviorair.com/",
+        "image": "images/Airplane.jpg",
+        "membershipLevel": "Gold",
+        "establishedYear": "1988",
+        "businessSector": "Transportation"
+    },
+
+    {
+        "name": "Caravan Freight Logistics",
+        "address": "5 Ocean-to-Sand Hwy, Timbuktu",
+        "phone": "+223 20 111 000",
+        "websiteURL": "https://www.bncenlinea.com/",
+        "image": "images/bank.jpg",
+        "membershipLevel": "gold",
+        "establishedYear": "2015",
+        "businessSector": "bank"
+    },
+    {
+        "name": "Gold Coast Artisans",
+        "address": "14 Jewelry Row, Timbuktu",
+        "phone": "+223 20 666 999",
+        "websiteURL": "https://aviorair.com/",
+        "image": "images/Airplane.jpg",
+        "membershipLevel": "Gold",
+        "establishedYear": "1988",
+        "businessSector": "Transportation"
+    }
+]
