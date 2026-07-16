@@ -95,15 +95,15 @@ main {
     background-color: #fff;
     font-family: Acme, Arial, sans-serif;
 }
-.menu,h2 button{
+.menu,h2{
     margin: 1rem auto;
     padding: 0.5rem;
     text-align: center;
-
-    button {
-        padding: 0.5rem 1rem;
-        font-weight: 700;
-    }
+}
+.menu button,
+h2 button {
+    padding: 0.5rem 1rem;
+    font-weight: 700;
 }
 
 #membersContainer.grid-view {
