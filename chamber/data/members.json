@@ -18,7 +18,7 @@
 },
     
 {
-    "name": "Niger River Eco Lodge",
+    "name": "intel",
     "address": "calle plaza venezuela",
     "phone": "+223 28 444 555",
     "websiteURL": "https://intel.la",
@@ -26,7 +26,7 @@
     "membershipLevel": "Gold"    
 },
 {
-    "name": "Desert Bloom Botanicals",
+    "name": "Cantv",
     "address": "caracas calle cati",
     "phone": "+223 20 777 888",
     "websiteURL": "https://www.cantv.com.ve/internet/",
@@ -35,8 +35,8 @@
     
 },
     {
-        "name": "Sankore Book Archiving",
-        "address": "300 University Rd, Timbuktu",
+        "name": "banco de venezuela",
+        "address": "venezuela estacion altamira",
         "phone": "+223 20 333 222",
         "websiteURL": "https://www.bancodevenezuela.com/index.html",
         "image": "images/banco.jpg",
@@ -44,8 +44,8 @@
         
     },
     {
-        "name": "Caravan Freight Logistics",
-        "address": "5 Ocean-to-Sand Hwy, Timbuktu",
+        "name": "banca de nacinal de credito",
+        "address": "the process EFAT",
         "phone": "+223 20 111 000",
         "websiteURL": "https://www.bncenlinea.com/",
         "image": "images/bank.jpg",
@@ -54,8 +54,8 @@
         "businessSector": "bank"
     },
     {
-        "name": "Gold Coast Artisans",
-        "address": "14 Jewelry Row, Timbuktu",
+        "name": "airport the catia la mar",
+        "address": "la guaira",
         "phone": "+223 20 666 999",
         "websiteURL": "https://aviorair.com/",
         "image": "images/Airplane.jpg",
@@ -65,8 +65,8 @@
     },
 
     {
-        "name": "Caravan Freight Logistics",
-        "address": "5 Ocean-to-Sand Hwy, Timbuktu",
+        "name": "banco de venezuela",
+        "address": "the catia",
         "phone": "+223 20 111 000",
         "websiteURL": "https://www.bncenlinea.com/",
         "image": "images/bank.jpg",
@@ -75,8 +75,8 @@
         "businessSector": "bank"
     },
     {
-        "name": "Gold Coast Artisans",
-        "address": "14 Jewelry Row, Timbuktu",
+        "name": "america air",
+        "address": "maracay",
         "phone": "+223 20 666 999",
         "websiteURL": "https://aviorair.com/",
         "image": "images/Airplane.jpg",

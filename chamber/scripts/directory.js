@@ -37,7 +37,7 @@ function createMemberCards(members) {
 
     members.forEach(member => {
         let card = document.createElement("section");
-        card.classList.add("member-card"); // Añadimos clase para control CSS
+        card.classList.add("member-card"); 
 
         let name = document.createElement("h3");
         let location = document.createElement("p");
@@ -89,10 +89,12 @@ gridBtn.addEventListener('click', () => {
 listBtn.addEventListener('click', () => {
     container.classList.add('list-view');
     container.classList.remove('grid-view');
-    container.classList.add('grid-view'); // Inicia en vista de cuadrícula
-    gridBtn.classList.add('active');      // Marca el botón como activo
+    container.classList.add('grid-view'); 
+    gridBtn.classList.add('active');      
     getMembers();
 });
 
-// Inicializar la carga al cargar la página
+
 getMembers();
+document.getElementById("currentYear").textContent = new Date().getFullYear();
+document.getElementById("lastModified").innerHTML = document.lastModified;

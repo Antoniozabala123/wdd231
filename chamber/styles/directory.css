@@ -138,6 +138,33 @@ h2 button {
     font-weight: bold;
     color: #333;
 }
+/*************** footer ***********/
+footer {
+    background-color: #eee;
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: #ccc solid 1px;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+
+}
 
 
 /*************** app movil ***********/
