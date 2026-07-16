@@ -207,9 +207,10 @@ footer {
         
     }
 
-    .container {
-        grid-template-columns: 1fr;
-        gap: 20px;
+        #membersContainer.grid-view {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;;
     }
 
     h1 {
@@ -222,7 +223,11 @@ footer {
     }
 
     footer {
-        background-color: #000;
-        color: #fff;
+        background-color: #eee;
+        padding: 1rem 10px;
+        text-align: center;
     }
+        .social a:hover {
+            background-color: #e05a47;
+        }
 }
