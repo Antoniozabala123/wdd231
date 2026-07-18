@@ -126,6 +126,10 @@ h2 button {
     gap: 15px;
 }
 
+#membersContainer.list-view .member-card img {
+    display: none;
+}
+
 
 .member-card {
     background: #fff;
