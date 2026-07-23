@@ -1,22 +1,145 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-nav{
-    background-color: white;
-    padding: 1rem , 2rem;
-
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #212121;
+    background-color: #F5F5F5;
+    line-height: 1.6;
 }
 
-.nav-container{
+header {
+    background-color: #eee;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    
+    justify-content: space-between;
+    padding: 0 10%;
+    min-height: 80px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.logo-text {
+    color: #0e0d0d;
 }
 
 
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav a {
+    display: block;
+    color: #0a0a0a;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: larger;
+    flex: 1 1 100%;
+}
+
+#menu {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: rgb(26, 24, 24);
+    cursor: pointer;
+    padding: 0.5rem;
+    position: absolute;
     
+        top: 0.8rem;
+        right: 3rem;
+}
+
+footer {
+    background-color: #eee;
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: #ccc solid 1px;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+
+}
+nav a:hover {
+
+    color: #E07A5F;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2,
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    #menu {
+        display: block;
+        order: 2
+        
+    }
+
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 5%;
+        color: #fff;
+    }
+
+    nav ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+                 }
+        
+    nav {
+        display: none;
+        width: 100%;
+        order: 3;
+    }
+
+    nav.open {
+        display: flex;
+        flex-direction:column;
+        display: block;
+        width: 100%;
+        text-align: center;
+        
+    }}

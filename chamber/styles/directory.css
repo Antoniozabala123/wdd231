@@ -16,6 +16,7 @@ header{
     align-items: end;
     border-bottom: solid 1px #ddd;
     column-gap: 8px;
+    flex-wrap: wrap;
 }
 
 header img {
