@@ -126,8 +126,7 @@ nav a {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: rgb(245, 241, 241);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    color: rgb(255, 255, 255);
     padding: 1rem;
     width: 90%;
     max-width: 800px;
@@ -141,14 +140,14 @@ nav a {
 .hero-content p {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
-    color: #F5F5F5;
+    color: rgb(255, 255, 255);
 }
 
 .cta-button {
     
     padding: 0.8rem 2rem;
     background-color: #e74c3c;
-    color: #0e0d0d;
+    color: #fff;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
