@@ -332,19 +332,19 @@ nav a:hover {
         text-align: center;
 
     }
-.home-grid,
-.weather,
-.member-card, h2,
-#spotlights{
+  .home-grid,
+  .weather,
+  .member-card, h2,
+   #spotlights{
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
     width: 100%;
 }
-footer {
-background-color: #eee;
-padding: 1rem 10px;
-text-align: center;
+  footer {
+   background-color: #eee;
+   padding: 1rem 10px;
+   text-align: center;
 }
 .social a:hover {
  background-color: #e05a47;
