@@ -284,70 +284,48 @@ nav a:hover {
     color: #E07A5F;
 }
 
+/*************** app movil ***********/
 @media (max-width: 768px) {
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    h2,
-    h3 {
-        font-size: 1.5rem;
-    }
-
     #menu {
         display: block;
-        order: 2
-    }
-   
-
-    header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem 5%;
-        color: #fff;
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-        margin: 0;
     }
 
     nav {
         display: none;
         width: 100%;
-        order: 3;
     }
-
 
     nav.open {
-        display: flex;
-        flex-direction: column;
         display: block;
-        width: 100%;
-        text-align: center;
-
     }
-  .home-grid,
-  .weather,
-  .member-card, h2,
-   #spotlights{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    width: 100%;
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 5%;
+    }
 }
-  footer {
-   background-color: #eee;
-   padding: 1rem 10px;
-   text-align: center;
-}
-.social a:hover {
- background-color: #e05a47;
-}
-                               
+
+/* DESKTOP */
+@media (min-width: 769px) {
+    #menu {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
 }
