@@ -109,7 +109,70 @@ nav a:hover {
     display: block;
 }
 
-/********** Main********/
+/********** Main form styling ********/
+.join-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+        margin: 4.5rem auto;
+        padding: 1rem;
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wf1 fieldset{
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+    font-weight: bold;
+}
+
+.wf1 legend{
+    padding: 0 .5rem;
+}
+
+.wf1 label{
+    display: block ;
+    padding-top: 1rem;
+    font-size: .9rem;
+    font-weight :bold;
+}
+
+.wf1 input[type="submit"] {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.9rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.wf1 input[type="submit"]:hover {
+    background-color: #c0392b;
+}
+
+.wf1 input,
+.wf1 select,
+.wf1 textarea {
+    margin-top: 0.4rem;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+}
+.wf1 input:focus,
+.wf1 select:focus,
+.wf1 textarea:focus {
+    outline: 2px solid #e74c3c;
+    border-color: #e74c3c;
+}
+
+
 
 
 /*************** footer ***********/
