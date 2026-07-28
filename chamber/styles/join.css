@@ -97,7 +97,6 @@ nav a {
 nav a.active {
     text-decoration: underline;
     font-weight: bold;
-    color: #E07A5F;
 }
 
 nav a:hover {
