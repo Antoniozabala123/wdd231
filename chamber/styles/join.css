@@ -55,12 +55,11 @@ header img {
 /*************** navigation ***********/
 #menu {
     display: none;
-    font-size: 1.2rem;
+    font-size: 2rem;
     background: none;
     border: none;
     color: #080808;
     cursor: pointer;
-    padding: 0.5rem;
 }
 
 header span {
@@ -75,14 +74,16 @@ h1 {
     color: #080808;
 
 }
+nav {
+    display: block;
+}
 
 nav ul {
-    list-style: none;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 5px 0 5px 10px;
-    gap: 5px;
+    list-style: none;
+    gap: 1rem;
+    margin: 0;
+    padding: 15px;
 }
 
 nav a {
@@ -92,6 +93,11 @@ nav a {
     padding: 5px 0 5px 10px;
     text-decoration: none;
     font-size: 1.2rem;
+}
+nav a.active {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #E07A5F;
 }
 
 nav a:hover {
@@ -104,57 +110,7 @@ nav a:hover {
 }
 
 /********** Main********/
-main {
-    margin: 0 auto;
-    padding: 0.5rem;
-    background-color: #fff;
-    font-family: Acme, Arial, sans-serif;
-}
 
-.menu,
-h2 {
-    margin: 1rem auto;
-    padding: 0.5rem;
-    text-align: center;
-}
-
-.menu button,
-h2 button {
-    padding: 0.5rem 1rem;
-    font-weight: 700;
-}
-
-#membersContainer.grid-view {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-#membersContainer.list-view {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-#membersContainer.list-view .member-card img {
-    display: none;
-}
-
-
-.member-card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 15px;
-}
-
-.member-card .label {
-    font-weight: bold;
-    color: #333;
-}
 
 /*************** footer ***********/
 footer {
