@@ -115,11 +115,11 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     max-width: 1200px;
-        margin: 4.5rem auto;
-        padding: 1rem;
-        background: white;
-        border-radius: 15px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 4.5rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .wf1 fieldset{
@@ -151,9 +151,7 @@ nav a:hover {
     border-radius: 6px;
     cursor: pointer;
 }
-.wf1 input[type="submit"]:hover {
-    background-color: #c0392b;
-}
+
 
 .wf1 input,
 .wf1 select,
