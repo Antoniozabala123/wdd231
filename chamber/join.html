@@ -50,44 +50,57 @@
 
         <h1>Membership Application</h1>
         <div class="join-layout">
-        <form method="get" action="thankyou.html" class="wf1">
-            <fieldset>
-                <legend>Applicant Information</legend>
-                <label>First Name <input type="text" name="fname" title="Please enter your first name" autocomplete="given-name" required></label>
-                <label>Last Name <input type="text" name="lname" title="Please enter your last name" autocomplete="family-name" required></label>
-            </fieldset>
-    
-            <fieldset>
-                <legend>Organizational Title</legend>
-                <label>Title <input type="text" name="title" autocomplete="organization-title" required></label>
-            </fieldset>
-    
-            <fieldset>
-                <legend>Contact Information</legend>
-                <label>Email <input type="email" id="email" name="email" placeholder="someone@gmail.com" required></label>
-                <label>Phone <input type="tel" name="phone" placeholder="1234566542" required></label>
-            </fieldset>
-    
-            <fieldset>
-                <legend>Membership Details</legend>
-                <label> Membership Level
-                    <select name="membership" required>
-                        <option value="">Select a level</option>
-                        <option value="np">NP Membership (Non-Profit)</option>
-                        <option value="bronze">Bronze Membership</option>
-                        <option value="silver">Silver Membership</option>
-                        <option value="gold">Gold Membership</option>
-                    </select>
-                </label>
-                <label> Business Description
-                    <textarea name="description" rows="4"></textarea>
-                </label>
-                <!-- Timestamp (hidden) -->
-                <input type="hidden" name="timestamp" id="timestamp">
-                <!-- Submit -->
-                <input type="submit" value="Join Now">
-            </fieldset>
-        </form>
+            <form method="get" action="thankyou.html" class="wf1">
+        
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label>First Name <input type="text" name="fname" title="Please enter your first name"
+                            autocomplete="given-name" required></label>
+                    <label>Last Name <input type="text" name="lname" title="Please enter your last name"
+                            autocomplete="family-name" required></label>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Organizational Title</legend>
+                    
+                    <label>Title <input type="text" name="title" title="Please enter your organization title"
+                            pattern="[A-Za-z\s]+" autocomplete="organization-title" required></label>
+                    
+                    <label>Organization Name <input type="text" name="orgname" title="Please enter your organization name"
+                            autocomplete="organization" required></label>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    
+                    <label>Email <input type="email" id="email" name="email" title="Please enter a valid email address"
+                            placeholder="someone@gmail.com" autocomplete="email" required></label>
+                    
+                    <label>Phone <input type="tel" name="phone" title="Please enter your mobile phone number"
+                            placeholder="1234566542" autocomplete="tel" required></label>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Membership Details</legend>
+                    <label> Membership Level
+                        <select name="membership" required>
+                            <option value="">Select a level</option>
+                            <option value="np">NP Membership (Non-Profit)</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+                    
+                    <label> Business Description <textarea name="description" title="Please enter your organization description"
+                            rows="4"></textarea> </label>
+        
+                    <!-- Timestamp (hidden) -->
+                    <input type="hidden" name="timestamp" id="timestamp">
+                    <!-- Submit -->
+                    <input type="submit" value="Join Now">
+                </fieldset>
+            </form>
         </div>
     </main>
     
