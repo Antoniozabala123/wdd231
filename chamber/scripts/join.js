@@ -1,3 +1,13 @@
+const hamButton = document.querySelector('#menu');
+const navigation = document.querySelector('nav');
+
+
+hamButton.addEventListener('click', () => {
+    navigation.classList.toggle('open');
+    hamButton.classList.toggle('open');
+});
+
+
 const openButton1 = document.querySelector("#openbutton1");
 const openButton2 = document.querySelector("#openbutton2");
 const openButton3 = document.querySelector("#openbutton3");
