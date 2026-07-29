@@ -29,5 +29,6 @@ openButton4.addEventListener('click', () => {
 closeButton.addEventListener('click', () => {
     dialogbox.close();
 });
-    
+document.getElementById("currentYear").textContent = new Date().getFullYear();
+document.getElementById("lastModified").innerHTML = document.lastModified;
 
