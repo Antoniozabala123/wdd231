@@ -23,7 +23,7 @@
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/join.css">
-    <script src="scripts/home.js" defer></script>
+    <script src="scripts/join.js" defer></script>
 
 
 </head>
@@ -48,11 +48,12 @@
     </header>
     <main>
 
-        <h1>Membership Application</h1>
+        
         <div class="join-layout">
             <form method="get" action="thankyou.html" class="wf1">
         
                 <fieldset>
+                    <h1>Membership Application</h1>
                     <legend>Applicant Information</legend>
                     <label>First Name <input type="text" name="fname" title="Please enter your first name"
                             autocomplete="given-name" required></label>
@@ -101,6 +102,34 @@
                     <input type="submit" value="Join Now">
                 </fieldset>
             </form>
+            <section class="membership-container">
+                <h2>Membership Levels</h2>
+                <div class="card">
+                    <h3>Non Profit Membership Level</h3>
+                    <button id="openbutton1">learn more</button>               
+                </div>
+
+                <div class="card">
+                    <h3>Bronze Membership Level</h3>
+                    <button id="openbutton2">learn more</button>
+                </div>
+
+                
+                <div class="card">
+                    <h3>Silver Membership Level</h3>
+                    <button id="openbutton3">learn more</button>
+                </div>
+                
+
+                <div class="card">
+                    <h3>Gold Membership Level</h3>
+                    <button id="openbutton4">learn more</button>
+                </div>
+            </section>
+        <dialog id="dialogBox">
+            <div></div>
+            <button id="closeButton">close</button>
+        </dialog>
         </div>
     </main>
     
