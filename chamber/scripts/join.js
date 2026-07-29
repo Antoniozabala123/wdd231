@@ -16,6 +16,7 @@ const dialogbox = document.querySelector("#dialogBox");
 const dialogBoxText = document.querySelector("#dialogBox div");
 const closeButton = document.querySelector("#closeButton");
 
+// Event to open
 
 openButton1.addEventListener('click', () => {
     dialogBoxText.innerHTML = "Access to community events, free resources, and more.";
