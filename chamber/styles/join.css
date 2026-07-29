@@ -302,7 +302,6 @@ footer {
     }
     .join-layout {
         grid-template-columns: 1fr;
-            /* 1 sola columna */
         margin: 1rem auto;
         gap: 1.5rem;
         }
@@ -310,7 +309,6 @@ footer {
     .membership-container {
         display: grid;
         grid-template-columns: 1fr;
-            /* tarjetas una debajo de otra */
         gap: 1rem;
         }
     }
