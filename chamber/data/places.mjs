@@ -1,4 +1,4 @@
-[
+export const places = [
     {
         "title": "Angel Falls (Canaima National Park)",
         "address": "Canaima National Park, Bolivar State, Venezuela",
