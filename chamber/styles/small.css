@@ -8,37 +8,38 @@
     background-color: #eee;
     border-radius: 8px;
     overflow: hidden;
-    
+
     display: grid;
-    grid-template-areas: 
-    "name"
-    "image"
-    "address"
-    "description"
-    "button"
-    ;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "name"
+        "image"
+        "address"
+        "description"
+        "button";
 }
 
-#allplaces div h2{
-   margin: 1rem 10px;
-  grid-area: name;
+#allplaces div h2 {
+    margin: 1rem 10px;
+    grid-area: name;
 }
 
-#allplaces div img{
-width: 200px;
-height: 200px;
-object-fit: cover;
-grid-area: image;
+#allplaces div img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    grid-area: image;
 }
 
-#allplaces div p{
-margin: 1rem 10px;
-grid-area: description;
+#allplaces div p {
+    margin: 1rem 10px;
+    grid-area: description;
 }
 
-#allplaces div address{
-margin: 1rem 10px;
-grid-area: address;
+#allplaces div address {
+    margin: 1rem 10px;
+    grid-area: address;
+    font-style: normal;
 }
 
 #allplaces div button {
