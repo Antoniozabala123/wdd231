@@ -9,11 +9,16 @@ function displayItems(places) {
         const thecard = document.createElement("div");
 
         // build the photo element
+        const thefigure = document.createElement("figure");
         const thephoto = document.createElement("img");
-        thephoto.src = x.image;        
+        thephoto.src = x.image;
         thephoto.alt = x.name;
-        thecard.appendChild(thephoto);
-
+        thephoto.loading = "lazy";   
+        thephoto.width = 300;
+        thephoto.height = 200;
+        thefigure.appendChild(thephoto);
+        thecard.appendChild(thefigure);
+        
         // build the title element
         const thetitle = document.createElement("h2");
         thetitle.innerText = x.name;
