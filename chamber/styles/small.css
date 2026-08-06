@@ -46,3 +46,61 @@
     margin: 1rem 10px;
     grid-area: button;
 }
+
+/*************** app movil ***********/
+@media (max-width: 768px) {
+    #menu {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        width: 100%;
+    }
+
+    nav.open {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 5%;
+    }
+
+    .join-layout {
+        grid-template-columns: 1fr;
+        margin: 1rem auto;
+        gap: 1.5rem;
+    }
+
+    .membership-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 769px) {
+    #menu {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+}
