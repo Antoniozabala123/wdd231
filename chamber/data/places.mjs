@@ -36,22 +36,10 @@ export const places = [
         image: "images/galpones.webp"
     },
     {
-        name: "Mercado de Chacao",
-        address: "Chacao, Caracas",
-        description: "A vibrant local market offering fresh produce, traditional foods, and a true taste of Caracas life.",
-        image: "images/mercado-chacao.webp"
-    },
-    {
         name: "Universidad Central de Venezuela",
         address: "Ciudad Universitaria, Caracas",
         description: "A UNESCO World Heritage campus known for its modernist architecture and cultural importance.",
         image: "images/ucv.webp"
-    },
-    {
-        name: "Sabas Nieves",
-        address: "Entrada Sabas Nieves, El Ávila, Caracas",
-        description: "One of the most popular hiking trails in El Ávila, ideal for exercise and nature lovers.",
-        image: "images/sabas-nieves.webp"
     },
     {
         name: "Centro Comercial Sambil",
