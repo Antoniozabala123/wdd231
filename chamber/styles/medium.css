@@ -1,4 +1,4 @@
-@media (min-width: 38rem) {
+@media (min-width: 641px) and (max-width: 1024px) {
 
     #allplaces div {
         grid-template-areas:
