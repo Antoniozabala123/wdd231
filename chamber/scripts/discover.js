@@ -45,3 +45,26 @@ function displayItems(places) {
 }
 
 displayItems(places)
+
+const displayVisitorMessage = () => {
+    const messageElement = document.getElementById('visitor-message');
+    const lastVisit = localStorage.getItem('lastVisitDate');
+    const now = Date.now();
+    const oneDay = 24 * 60 * 60 * 1000; // milliseconds in a day
+
+    if (!lastVisit) {
+        messageElement.textContent = "Welcome! Let us know if you have any questions.";
+    } else {
+        const timeDifference = now - Number(lastVisit);
+        if (timeDifference < oneDay) {
+            messageElement.textContent = "Back so soon! Awesome!";
+        } else {
+            const daysDifference = Math.floor(timeDifference / oneDay);
+            const dayText = daysDifference === 1 ? "day" : "days";
+            messageElement.textContent = `You last visited ${daysDifference} ${dayText} ago.`;
+        }
+    }
+    // Store the current visit date for the next time
+    localStorage.setItem('lastVisitDate', now);
+};
+displayVisitorMessage();
