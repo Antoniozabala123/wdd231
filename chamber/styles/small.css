@@ -23,6 +23,7 @@
 #allplaces div img {
     width: 200px;
     height: 200px;
+    padding: 5px;
     object-fit: cover;
     grid-area: image;
 }
