@@ -100,5 +100,93 @@
             "Red/Black",
             "Blue/White"
         ]
+    },
+    {
+        "name": "Chelsea Elegance Boots",
+        "category": "Women / Boots",
+        "wholesale_price": 26.00,
+        "bulk_pack": "Half Dozen (6 pairs)",
+        "description": "Low-cut ankle boots with side elastic bands, easy to wear with a low square heel.",
+        "image": "images/shoes.jpg",
+        "colors": [
+            "Black",
+            "Suede Brown"
+        ]
+    },
+    {
+        "name": "Air Cushion Runner",
+        "category": "Sports",
+        "wholesale_price": 24.50,
+        "bulk_pack": "Half Dozen (6 pairs)",
+        "description": "High-performance running shoes equipped with a transparent air chamber for shock absorption.",
+        "image": "images/step.jpg",
+        "colors": [
+            "Neon Green",
+            "Total Black",
+            "Red/White"
+        ]
+    },
+    {
+        "name": "Vanguard Dress Shoes",
+        "category": "Men / Formal",
+        "wholesale_price": 32.00,
+        "bulk_pack": "Dozen (12 pairs)",
+        "description": "Elegant premium oxford leather shoes, perfect for business meetings and formal events.",
+        "image": "images/cosmistic-shoes.jpg",
+        "colors": [
+            "Dark Walnut",
+            "Midnight Black"
+        ]
+    },
+    {
+        "name": "Baby Soft Steps",
+        "category": "Kids / Toddler",
+        "wholesale_price": 8.00,
+        "bulk_pack": "Closed Bundle (24 pairs)",
+        "description": "Ultra-flexible, non-slip first steps footwear with ergonomic sole for infants.",
+        "image": "images/baby-shoes.jpg",
+        "colors": [
+            "Sky Blue",
+            "Soft Yellow",
+            "Cotton Pink"
+        ]
+    },
+    {
+        "name": "Aqua Shield Boots",
+        "category": "Industrial / Safety",
+        "wholesale_price": 21.00,
+        "bulk_pack": "Half Dozen (6 pairs)",
+        "description": "Waterproof rubber boots with steel toe cap reinforcement for heavy duty work.",
+        "image": "images/ankle-boots.jpg",
+        "colors": [
+            "Yellow Safety",
+            "Industrial Black"
+        ]
+    },
+    {
+        "name": "Summer Breeze Slides",
+        "category": "Casual / Beach",
+        "wholesale_price": 6.50,
+        "bulk_pack": "Dozen (12 pairs)",
+        "description": "Lightweight, quick-drying EVA slide sandals with textured footbed for pool or beach.",
+        "image": "images/jhathome-shoes.jpg",
+        "colors": [
+            "Navy Blue",
+            "Olive Drab",
+            "Orange Coral"
+        ]
+    },
+    {
+        "name": "sneakers Breeze Slides",
+        "category": "Casual / Beach",
+        "wholesale_price": 15.50,
+        "bulk_pack": "Dozen (12 pairs)",
+        "description": "Lightweight, quick-drying EVA slide sandals with textured footbed for pool or beach.",
+        "image": "images/shanimani-shoe.jpg",
+        "colors": [
+            "Navy Blue",
+            "Olive Drab",
+            "Orange Coral"
+        ]
     }
 ]
