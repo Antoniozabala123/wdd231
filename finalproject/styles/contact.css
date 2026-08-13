@@ -93,3 +93,31 @@ dialog {
     box-shadow: 0 0 10px rgb(0 0 0 / 50%);
     padding: 20px;
 }
+
+
+#form-results h3 {
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+#form-results p {
+    font-weight: bold;
+    color: #333;
+}
+
+#form-results {
+    background: #eee;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.cta-button {
+        margin: 1rem;
+        padding:  1.2rem;
+        background: #3f3ce7;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
