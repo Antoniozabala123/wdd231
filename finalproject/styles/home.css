@@ -273,7 +273,8 @@ h2 {
 
 
 footer {
-    background-color: #eee;
+    color: #fff;
+    background-color: #3e0346;
     padding: 1rem 10px;
     text-align: center;
 }
@@ -290,7 +291,7 @@ footer {
     align-items: center;
     width: 44px;
     height: 44px;
-    border: #ccc solid 1px;
+    
 }
 
 .social img {
