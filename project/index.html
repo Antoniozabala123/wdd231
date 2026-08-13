@@ -21,12 +21,88 @@
     
     <link rel="icon" href="images/shoe-prints.svg" type="image/x-icon">
     <link rel="stylesheet" href="styles/home.css">
-
-    
-
+    <link rel="stylesheet" href="styles/larger.css">
 
 </head>
+
 <body>
+<!---header here-->
+<header>
+    <div class="logo">
+        <img src="images/shoe-prints.svg" alt="site logo" width="512" height="512">
+        <span>Shoes Shopping</span>
+    </div>
+    <button class="menu-btn" id="menu" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+    <nav aria-label="Main Navigation">
+        <ul class="nav-links" id="navlinks">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="designs.html">Designs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+
+    <section class="hero">
+        <picture class="hero-box-img">
+            <img class="hero-home-image" src="images/descarga.jpg" alt="Shopping venezuela">
+        </picture>
+        <div class="hero-content">
+            <h1>Shopping Shoes</h1>
+            <p>
+                Centralize access to trendy, high-quality footwear and streamline
+                the wholesale sourcing process for local entrepreneurs in Venezuela.
+            </p>
+            <a href="designs.html" class="cta-button">View Collection</a>
+        </div>
+    </section>
+
+    <div class="home-grid">
+        <section class="card events">
+            <h2>Current Events</h2>
+            <div class="events-list">
     
+    
+                <div class="events-items">
+                    <h3>New offert</h3>
+                    <p>📅 Date: Thu july 31 2026</p>
+                </div>
+    
+    
+                <div class="events-items">
+                    <h3>Month</h3>
+                    <p>📅 Date: Thu july 2 2026</p>
+                </div>
+    
+    
+                <div class="events-items">
+                    <h3>New Items</h3>
+                    <p>📅 Date: Thu Jun 24 2026</p>
+                </div>
+            </div>
+        </section>
+    </div>
+<section class="spotlights">
+    <h2>Product New shoes</h2>
+    <div id="spotlights" class="spotlight-grid"></div>
+</section>
+
+</main>
+
+<footer>
+    <div class="social">
+        <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.svg" alt="linked in" width="16"
+                height="16"></a>
+        <a href="https://x.com/home" target="_blank"><img src="images/twitter-x.svg" alt="twitter" width="16"
+                height="16"></a>
+        <a href="https://github.com" target="_blank"><img src="images/github.svg" alt="github" width="16"
+                height="16"></a>
+    </div>
+    <p>&copy; <span id="currentYear"></span> Antonio Zabala - Caracas</p>
+    <p>Last Modification: <span id="lastModified"></span></p>
+</footer>
+
+<script src="scripts/home.js"></script>
 </body>
+
 </html>

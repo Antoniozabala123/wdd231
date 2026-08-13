@@ -1,0 +1,104 @@
+[
+    {
+        "name": "Sneakers Urban Pro",
+        "category": "Urban / Casual",
+        "wholesale_price": 18.50,
+        "bulk_pack": "Dozen (12 pairs)",
+        "description": "High-resistance urban sneakers with non-slip rubber sole, ideal for everyday wear.",
+        "image": "images/sneaker.jpg",
+        "colors": [
+            "White/Black",
+            "Gray",
+            "Total Black"
+        ]
+    },
+    {
+        "name": "Running Alpha Max",
+        "category": "Sports",
+        "wholesale_price": 22.00,
+        "bulk_pack": "Half Dozen (6 pairs)",
+        "description": "Sports shoes with breathable mesh and light cushioning, perfect for training.",
+        "image": "images/nike.jpg",
+        "colors": [
+            "Blue/Orange",
+            "Black/Gray",
+            "Fuchsia"
+        ]
+    },
+    {
+        "name": "Classic Leather Loafers",
+        "category": "Casual / Formal",
+        "wholesale_price": 25.00,
+        "bulk_pack": "Dozen (12 pairs)",
+        "description": "Semi-leather loafers with reinforced stitching, excellent for smart casual wear.",
+        "image": "images/leather.jpg",
+        "colors": [
+            "Brown",
+            "Black",
+            "Honey"
+        ]
+    },
+    {
+        "name": "Trekking Terra Boots",
+        "category": "Men / Outdoor",
+        "wholesale_price": 28.50,
+        "bulk_pack": "Half Dozen (6 pairs)",
+        "description": "Mid-cut rustic boots with adjustable laces and high-traction sole for rough terrain.",
+        "image": "images/zapatos.jpg",
+        "colors": [
+            "Khaki",
+            "Black",
+            "Olive"
+        ]
+    },
+    {
+        "name": "Venus Chic Platforms",
+        "category": "Women / Fashion",
+        "wholesale_price": 15.00,
+        "bulk_pack": "Dozen (12 pairs)",
+        "description": "Lightweight high platform sandals with soft adjustable straps, seasonal trend.",
+        "image": "images/venus.jpg",
+        "colors": [
+            "Beige",
+            "White",
+            "Pastel Pink"
+        ]
+    },
+    {
+        "name": "Retro Street 90s",
+        "category": "Urban / Skate",
+        "wholesale_price": 19.50,
+        "bulk_pack": "Dozen (12 pairs)",
+        "description": "Retro-style sneakers with vulcanized flat sole, highly demanded by young customers.",
+        "image": "images/black.jpg",
+        "colors": [
+            "White/Red",
+            "Black/White"
+        ]
+    },
+    {
+        "name": "Comfort Flex Sandals",
+        "category": "Women / Daily",
+        "wholesale_price": 9.50,
+        "bulk_pack": "Dozen (12 pairs)",
+        "description": "Low braided sandals with padded insole, maximum comfort for wholesale buyers.",
+        "image": "images/birkenstock.jpg",
+        "colors": [
+            "Gold",
+            "Silver",
+            "Black"
+        ]
+    },
+    {
+        "name": "Kids Champion Racer",
+        "category": "Kids",
+        "wholesale_price": 14.00,
+        "bulk_pack": "Half Dozen (6 pairs)",
+        "description": "Kids sports shoes with magic strap (velcro) closure and LED lights on the sole.",
+        "image": "images/champion.jpg",
+        "colors": [
+            "Red/Black",
+            "Blue/White"
+        ]
+    }
+]
