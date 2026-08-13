@@ -1,3 +1,11 @@
+const hamButton = document.querySelector('#menu');
+const navigation = document.querySelector('nav');
+
+
+hamButton.addEventListener('click', () => {
+    navigation.classList.toggle('open');
+    hamButton.classList.toggle('open');
+});
 
 const displayVisitorMessage = () => {
     const messageElement = document.getElementById('visitor-message');
@@ -86,3 +94,6 @@ function createProductCatalog(products) {
     });
 }
 loadProductSpotlights();
+
+document.getElementById("currentYear").textContent = new Date().getFullYear();
+document.getElementById("lastModified").innerHTML = document.lastModified;
