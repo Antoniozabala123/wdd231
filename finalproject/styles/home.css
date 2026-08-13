@@ -245,8 +245,8 @@ h2 {
 }
 
 .member-card img {
-    width: 120px;
-    height: 80px;
+    width: 150px;
+    height: 100px;
     object-fit: contain;
     margin-bottom: 1rem;
 }
