@@ -226,6 +226,14 @@ nav a:hover {
         justify-content: space-between;
         padding: 1rem 5%;
     }
+    #products-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
 
 }
 

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Document | Antonio Zabala</title>
+    <meta name="description" content="WDD 231 - Web Frontend Development - Antonio Zabala">
+    <meta name="author" content="Antonio Zabala">
+
+    <!---style meta twitter here-->
+    <meta property="og:title" content="WDD 231 Directory | Antonio Zabala Course Assignment">
+    <meta property="og:description"
+        content="Explore the WDD 231 course directory by Antonio Zabala. Discover campus project links, responsive design resources, and student assignments.">
+    <meta property="og:image" content="https://antoniozabala123.github.io/wdd231/index.html">
+    <meta property="og:url" content="https://github.io">
+
+    <!---style sheet here-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/shoe-prints.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/design.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+</head>
+
+<body>
+    <!---header here-->
+    <header>
+        <div class="logo">
+            <img src="images/shoe-prints.svg" alt="site logo" width="512" height="512">
+            <span>Shoes Shopping</span>
+        </div>
+        <button class="menu-btn" id="menu" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+        <nav aria-label="Main Navigation">
+            <ul class="nav-links" id="navlinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="designs.html">Design</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    
+    
+        <div class="contact-layout"></div>
+            <form method="get" action="thankyou.html" class="wf1">
+                <h1>Membership Application</h1>
+                <fieldset>
+                    <legend>Applicant Information</legend>
+    
+    
+                    <label>First Name <input type="text" name="fname" title="Please enter your first name"
+                            autocomplete="given-name" required></label>
+                    <label>Last Name <input type="text" name="lname" title="Please enter your last name"
+                            autocomplete="family-name" required></label>
+                </fieldset>
+    
+    
+                <fieldset>
+                    <legend>Contact Information</legend>
+    
+                    <label>Email <input type="email" id="email" name="email" title="Please enter a valid email address"
+                            placeholder="someone@gmail.com" autocomplete="email" required></label>
+    
+                    <label>Phone <input type="tel" name="phone" title="Please enter your mobile phone number"
+                            placeholder="1234566542" autocomplete="tel" required></label>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Membership Details</legend>
+                    <label> Membership Level
+                        <select name="membership" required>
+                            <option value="">Select a level</option>
+                            <option value="np">NP Membership (Non-Profit)</option>
+                            <option value="bronzeMembership">Bronze Membership</option>
+                            <option value="silverMembership">Silver Membership</option>
+                            <option value="goldmermbership">Gold Membership</option>
+                        </select>
+                    </label>
+    
+                    <label> Business Description <textarea name="description"
+                            title="Please enter your organization description" rows="4"></textarea> </label>
+    
+                    <!-- Timestamp (hidden) -->
+                    <input type="hidden" name="timestamp" id="timestamp">
+                    <!-- Submit -->
+                    <input type="submit" value="Join Now">
+                </fieldset>
+            </form>
+            <section class="membership-container">
+                <h2>Membership Levels</h2>
+                <div class="card">
+                    <h3>Non Profit Membership Level</h3>
+                    <button id="openbutton1">learn more</button>
+                </div>
+    
+                <div class="card">
+                    <h3>Bronze Membership Level</h3>
+                    <button id="openbutton2">learn more</button>
+                </div>
+    
+    
+                <div class="card">
+                    <h3>Silver Membership Level</h3>
+                    <button id="openbutton3">learn more</button>
+                </div>
+    
+    
+                <div class="card">
+                    <h3>Gold Membership Level</h3>
+                    <button id="openbutton4">learn more</button>
+                </div>
+            </section>
+            <dialog id="dialogBox">
+                <div></div>
+                <button id="closeButton">close</button>
+            </dialog>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="social">
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.svg" alt="linked in"
+                    width="16" height="16"></a>
+            <a href="https://x.com/home" target="_blank"><img src="images/twitter-x.svg" alt="twitter" width="16"
+                    height="16"></a>
+            <a href="https://github.com" target="_blank"><img src="images/github.svg" alt="github" width="16"
+                    height="16"></a>
+        </div>
+        <p>&copy; <span id="currentYear"></span> Antonio Zabala - Caracas</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/contact.js" defer></script>
+</body>
