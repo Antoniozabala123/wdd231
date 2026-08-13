@@ -119,7 +119,7 @@
         "wholesale_price": 24.50,
         "bulk_pack": "Half Dozen (6 pairs)",
         "description": "High-performance running shoes equipped with a transparent air chamber for shock absorption.",
-        "image": "images/step.jpg",
+        "image": "images/steps.jpg",
         "colors": [
             "Neon Green",
             "Total Black",
@@ -182,7 +182,7 @@
         "wholesale_price": 15.50,
         "bulk_pack": "Dozen (12 pairs)",
         "description": "Lightweight, quick-drying EVA slide sandals with textured footbed for pool or beach.",
-        "image": "images/shanimani-shoe.jpg",
+        "image": "images/shoes-sneaker.jpg",
         "colors": [
             "Navy Blue",
             "Olive Drab",
